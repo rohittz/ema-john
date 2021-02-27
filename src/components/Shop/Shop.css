@@ -1,0 +1,30 @@
+.whole-shop{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.product-list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.cart{
+    text-align: left;
+}
+.calculateAll{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.calculateAll >  li{
+    border: 1px solid white;
+    width: 200px;
+    margin-left: -37px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    list-style-type: none;
+}

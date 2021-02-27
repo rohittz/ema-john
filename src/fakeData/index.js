@@ -1,7 +1,7 @@
 import androids from './android';
 import cameras from './camera';
 import laptops from './laptop';
-
+import 'font-awesome/css/font-awesome.min.css';
 const fakeData = [...androids, ...cameras, ...laptops];
 
 
